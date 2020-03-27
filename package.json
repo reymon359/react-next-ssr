@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "next"
+		"start": "next",
+		"commit": "git-cz"
 	},
 	"keywords": [],
 	"author": "",
@@ -13,5 +14,13 @@
 		"next": "^9.3.1",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"cz-conventional-changelog": "^3.1.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
 	}
 }
